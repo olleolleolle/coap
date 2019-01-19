@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'bundler',   '~> 1.6'
+  s.add_development_dependency 'bundler',   ['>= 1.6', '< 3.0']
   s.add_development_dependency 'coveralls', '~> 0.7'
   s.add_development_dependency 'faker',     '~> 1.4'
   s.add_development_dependency 'minitest',  '~> 5.4'
