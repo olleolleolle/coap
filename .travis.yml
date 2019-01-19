@@ -22,9 +22,7 @@ notifications:
 env:
   global:
     - JRUBY_OPTS="--debug"
-  matrix:
     - NO_IPV6_TESTS=1
-
 
 script:
   - bundle exec rake build
